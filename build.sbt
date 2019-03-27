@@ -16,3 +16,11 @@ lazy val part1Project = Project(id = "part1", base = file("part1"))
       "com.amazonaws" % "aws-java-sdk-s3" % "1.11.267",
       "org.mockito" % "mockito-core" % "1.9.5" % Test)
   )
+
+lazy val part2Project = Project(id = "part2", base = file("part2"))
+  .settings(
+    libraryDependencies ++= Seq(
+      "org.scalatest" %% "scalatest" % "3.0.5" % "test",
+      "com.amazonaws" % "aws-java-sdk-s3" % "1.11.267",
+      "org.mockito" % "mockito-core" % "1.9.5" % Test)
+  )
