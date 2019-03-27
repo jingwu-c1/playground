@@ -27,6 +27,9 @@ class Hourglass {
     * Output
     *  19
     *
+    *  Requirement: run this module and check output result; pass all unit tests.
+    *  Avoid local variable, use val instead if needed.
+    *
     * @param arr
     * @return
     */
