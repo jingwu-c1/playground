@@ -3,6 +3,12 @@ class Hourglass {
   /***
     * Complete this hourglassSum method to return the largest sum of a hourglass shape from 2d array
     *
+    * Hourglass shape:
+    *  2 2 2
+    *    2
+    *  2 2 2
+    * Sum: 14
+    *
     * Example:
     * Input
     *  1 1 1 0 0 0
